@@ -1,0 +1,925 @@
+QPushButton:focus {
+    outline: none;
+}
+
+QLineEdit {
+    selection-background-color: #3f8e8e;
+}
+
+QComboBox QAbstractItemView {
+    selection-background-color: #3f8e8e;
+}
+
+
+QComboBox QAbstractItemView::item:hover {
+    background-color: #3f8e8e;
+}
+
+
+
+
+
+#MainWindow {
+    background-color: #ffdedede;
+
+    border: 20px solid #000000;
+
+}
+
+/*LOGIN PAGE*/
+#widget_login_bg {
+    background-color: qlineargradient(spread:pad, x1:0.677508, y1:0.125, x2:0.22, y2:1, stop:0 rgba(38, 83, 119, 255), stop:1 rgba(35, 147, 147, 255));
+    border-radius: 25px;
+}
+
+#widget_login_space {
+    background-color: #fff;
+}
+
+#widget_login_space QPushButton{
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+}
+
+#widget_login_space QPushButton, QLabel{
+    border: none;
+    text-align: center;
+}
+
+#widget_login_space QPushButton:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#widget_login_space QPushButton:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#widget_login_space QPushButton:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+
+
+#widget_pages {
+    background-color: #e4e4e4;
+    border-bottom-right-radius: 15px;
+}
+
+#widget_title {
+    background-color: #fff;
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+#widget_title QPushButton {
+    border: none;
+    border-radius: 20px;
+}
+
+#widget_title QPushButton:hover {
+    background-color: #fff5f5f5
+}
+
+#widget_title QPushButton:pressed {
+    background-color: #ffededed
+}
+
+
+
+
+
+#widget_divider {
+    background-color: #e4e4e4;
+}
+
+
+
+
+
+
+
+#widget_icon_menu {
+    background-color: #f9fafd;
+    border-bottom-left-radius: 15px;
+}
+
+QPushButton {
+    padding: 12 10 12 10;
+}
+
+#widget_icon_menu QPushButton, QLabel{
+    border: none;
+    text-align: left;
+}
+
+#widget_icon_menu QPushButton:hover {
+    background-color: #eee
+}
+
+#widget_icon_menu QPushButton:pressed {
+    background-color: #ffd3d3d3
+}
+
+#widget_icon_menu QPushButton:checked {
+    background-color: #eee
+}
+
+
+
+
+
+
+
+
+#widget_full_menu {
+    background-color: #f9fafd;
+    border-bottom-left-radius: 15px;
+}
+
+#widget_full_menu QPushButton {
+    border: none;
+    text-align: left;
+    font: HK;
+
+}
+
+
+
+#widget_full_menu QPushButton:hover {
+    background-color: #eee
+}
+
+#widget_full_menu QPushButton:pressed {
+    background-color: #ffd3d3d3
+}
+
+#widget_full_menu QPushButton:checked {
+    background-color: #eee
+}
+
+
+
+
+/*__________DASHBOARD__________*/
+#widget_dashboard_header {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+#widget_dashboard_content_1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+#widget_dashboard_content_2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+#widget_dashboard_content_3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+
+#label_hi, #label_username, #label_content_1_number, #label_content_2_number, #label_content_3_number {
+    color: rgba(21, 81, 87, 255)
+}
+
+
+
+/*__________INVENTORY__________*/
+
+
+
+#comboBox_products_category_add {
+    
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(45, 45, 45);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#comboBox_products_category_edit {
+    
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(45, 45, 45);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+
+
+/*_____products_____*/
+#widget_products_actions QPushButton{
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#widget_products_actions QPushButton, QLabel{
+    border: none;
+    text-align: center;
+}
+
+#widget_products_actions QPushButton:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#widget_products_actions QPushButton:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#widget_products_actions QPushButton:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+/*_____categories_____*/
+#widget_category_actions QPushButton{
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#widget_category_actions QPushButton, QLabel{
+    border: none;
+    text-align: center;
+}
+
+#widget_category_actions QPushButton:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#widget_category_actions QPushButton:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#widget_category_actions QPushButton:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+
+/*_____PRODUCTS-ADD_____*/
+/*save button*/
+#pushButton_products_add_save {
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_products_add_save{
+    border: none;
+    text-align: center;
+}
+
+#pushButton_products_add_save:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#pushButton_products_add_save:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#pushButton_products_add_save:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+/*cancel button*/
+#pushButton_products_add_cancel {
+    background-color: none;
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_products_add_cancel{
+    border: 1px solid #ff949494;
+    text-align: center;
+}
+
+#pushButton_products_add_cancel:hover {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+#pushButton_products_add_cancel:pressed {
+    border: 1px solid #ff5b5b5b;
+    background-color: #ffc0c0c0;
+}
+
+#pushButton_products_add_cancel:checked {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+
+/*_____PRODUCTS-EDIT_____*/
+/*save button*/
+#pushButton_products_edit_save {
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_products_edit_save{
+    border: none;
+    text-align: center;
+}
+
+#pushButton_products_edit_save:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#pushButton_products_edit_save:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#pushButton_products_edit_save:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+/*cancel button*/
+#pushButton_products_edit_cancel {
+    background-color: none;
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_products_edit_cancel{
+    border: 1px solid #ff949494;
+    text-align: center;
+}
+
+#pushButton_products_edit_cancel:hover {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+#pushButton_products_edit_cancel:pressed {
+    border: 1px solid #ff5b5b5b;
+    background-color: #ffc0c0c0;
+}
+
+#pushButton_products_edit_cancel:checked {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+
+
+/*_____CATEGORIES-ADD_____*/
+/*save button*/
+#pushButton_category_add_save {
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_category_add_save{
+    border: none;
+    text-align: center;
+}
+
+#pushButton_category_add_save:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#pushButton_category_add_save:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#pushButton_category_add_save:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+/*cancel button*/
+#pushButton_category_add_cancel {
+    background-color: none;
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_category_add_cancel{
+    border: 1px solid #ff949494;
+    text-align: center;
+}
+
+#pushButton_category_add_cancel:hover {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+#pushButton_category_add_cancel:pressed {
+    border: 1px solid #ff5b5b5b;
+    background-color: #ffc0c0c0;
+}
+
+#pushButton_category_add_cancel:checked {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+
+/*_____CATEGORY-EDIT_____*/
+/*save button*/
+#pushButton_category_edit_save {
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_category_edit_save{
+    border: none;
+    text-align: center;
+}
+
+#pushButton_category_edit_save:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#pushButton_category_edit_save:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#pushButton_category_edit_save:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+/*cancel button*/
+#pushButton_category_edit_cancel {
+    background-color: none;
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_category_edit_cancel{
+    border: 1px solid #ff949494;
+    text-align: center;
+}
+
+#pushButton_category_edit_cancel:hover {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+#pushButton_category_edit_cancel:pressed {
+    border: 1px solid #ff5b5b5b;
+    background-color: #ffc0c0c0;
+}
+
+#pushButton_category_edit_cancel:checked {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+
+
+/*__________INVENTORY END__________*/
+
+
+
+/*_____ACCOUNTS_____*/
+
+
+#comboBox_accounts_role_add {
+    
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(45, 45, 45);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#comboBox_accounts_role_edit {
+    
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(45, 45, 45);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+#tab_manage_accounts {
+    background-color: #e4e4e4;;
+    border: none;
+    border-bottom-right-radius: 15px;
+}
+
+#tab_create_account {
+    background-color: #e4e4e4;;
+    border: none;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+#widget_accounts_tabs QPushButton, QLabel{
+    border: none;
+    text-align: center;
+}
+
+#widget_accounts_tabs {
+    border-bottom: 2px solid rgba(191, 191, 191, 255);
+}
+
+
+
+#widget_accounts_tabs QPushButton:hover {
+    border-bottom: 2px solid rgba(43, 118, 128, 255)
+}
+
+#widget_accounts_tabs QPushButton:pressed {
+    border-bottom: 2px solid rgba(21, 81, 87, 255)
+}
+
+#widget_accounts_tabs QPushButton:checked {
+    border-bottom: 2px solid rgba(43, 118, 128, 255)
+}
+
+
+
+/*
+#widget_login_space QPushButton{
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+}
+
+#widget_login_space QPushButton, QLabel{
+    border: none;
+    text-align: center;
+}
+
+#widget_login_space QPushButton:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#widget_login_space QPushButton:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#widget_login_space QPushButton:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+*/
+
+
+/*__________ACCOUNTS__________*/
+#widget_accounts_actions QPushButton{
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#widget_accounts_actions QPushButton, QLabel{
+    border: none;
+    text-align: center;
+}
+
+#widget_accounts_actions QPushButton:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#widget_accounts_actions QPushButton:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#widget_accounts_actions QPushButton:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+/*_____ACCOUNTS-ADD_____*/
+/*save button*/
+#pushButton_accounts_add_save {
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_accounts_add_save{
+    border: none;
+    text-align: center;
+}
+
+#pushButton_accounts_add_save:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#pushButton_accounts_add_save:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#pushButton_accounts_add_save:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+/*cancel button*/
+#pushButton_accounts_add_cancel {
+    background-color: none;
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_accounts_add_cancel{
+    border: 1px solid #ff949494;
+    text-align: center;
+}
+
+#pushButton_accounts_add_cancel:hover {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+#pushButton_accounts_add_cancel:pressed {
+    border: 1px solid #ff5b5b5b;
+    background-color: #ffc0c0c0;
+}
+
+#pushButton_accounts_add_cancel:checked {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+
+/*_____ACCOUNTS-EDIT_____*/
+/*save button*/
+#pushButton_accounts_edit_save {
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_accounts_edit_save{
+    border: none;
+    text-align: center;
+}
+
+#pushButton_accounts_edit_save:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#pushButton_accounts_edit_save:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#pushButton_accounts_edit_save:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+/*cancel button*/
+#pushButton_accounts_edit_cancel {
+    background-color: none;
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_accounts_edit_cancel{
+    border: 1px solid #ff949494;
+    text-align: center;
+}
+
+#pushButton_accounts_edit_cancel:hover {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+#pushButton_accounts_edit_cancel:pressed {
+    border: 1px solid #ff5b5b5b;
+    background-color: #ffc0c0c0;
+}
+
+#pushButton_accounts_edit_cancel:checked {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+
+
+
+/* INBOUND*/
+
+#widget_inbound_action QPushButton{
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#widget_inbound_action QPushButton, QLabel{
+    border: none;
+    text-align: center;
+}
+
+#widget_inbound_action QPushButton:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#widget_inbound_action QPushButton:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#widget_inbound_action QPushButton:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+#comboBox_inbound_products {
+    
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(45, 45, 45);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#comboBox_inbound_category {
+    
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(45, 45, 45);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+/* Outbound */
+
+
+#widget_outbound_action QPushButton{
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#widget_outbound_action QPushButton, QLabel{
+    border: none;
+    text-align: center;
+}
+
+
+#widget_outbound_action QPushButton:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#widget_outbound_action QPushButton:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#widget_outbound_action QPushButton:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+
+#comboBox_outbound_products {
+    
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(45, 45, 45);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#comboBox_outbound_category {
+    
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(45, 45, 45);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+
+/* View Profile tab*/
+
+
+#comboBox_profile_role_edit {
+    
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(45, 45, 45);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+#widget_profile_action QPushButton{
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#widget_profile_action QPushButton, QLabel{
+    border: none;
+    text-align: center;
+}
+
+
+#widget_profile_action QPushButton:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#widget_profile_action QPushButton:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#widget_profile_action QPushButton:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+/*_____PROFILE-EDIT_____*/
+/*save button*/
+#pushButton_profile_edit_save {
+    background-color: rgba(35, 126, 147, 255);
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_profile_edit_save{
+    border: none;
+    text-align: center;
+}
+
+#pushButton_profile_edit_save:hover {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+#pushButton_profile_edit_save:pressed {
+    background-color: rgba(21, 81, 87, 255)
+}
+
+#pushButton_profile_edit_save:checked {
+    background-color: rgba(28, 103, 113, 255)
+}
+
+
+/*cancel button*/
+#pushButton_profile_edit_cancel {
+    background-color: none;
+    padding: 10 10 10 10;
+    border-radius: 15px;
+}
+
+#pushButton_profile_edit_cancel{
+    border: 1px solid #ff949494;
+    text-align: center;
+}
+
+#pushButton_profile_edit_cancel:hover {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+#pushButton_profile_edit_cancel:pressed {
+    border: 1px solid #ff5b5b5b;
+    background-color: #ffc0c0c0;
+}
+
+#pushButton_profile_edit_cancel:checked {
+    border: 1px solid #ff7b7b7b;
+    background-color: #ffdadada;
+}
+
+
+
+
+
+
+
+
+
+
