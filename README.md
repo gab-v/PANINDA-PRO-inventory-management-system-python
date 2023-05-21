@@ -9,7 +9,7 @@ Bachelor of Science in Computer Engineering
 School of Electrical, Electronics, and Computer Engineering
 Mapua University
 
-DATE: 
+DATE CREATED/MODIFIED: 
 May 5, 2023 [Executable file/Paninda Pro 1.0.3](https://github.com/gab-v/PANINDA-PRO-inventory-management-system-python/tree/main/Executable%20file/Paninda%20Pro%201.0.3)
 
 PROJECT DESCRIPTION:
