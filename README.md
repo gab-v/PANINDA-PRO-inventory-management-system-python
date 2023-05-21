@@ -23,4 +23,4 @@ retrieval, and seamless integration of data management processes.
 
 HOW TO USE: 
 To open the executable file, click the latest folder in [Executable file](https://github.com/gab-v/PANINDA-PRO-inventory-management-system-python/tree/main/Executable%20file). 
-To view the source codes in python, view [Source Codes](https://github.com/gab-v/PANINDA-PRO-inventory-management-system-python/tree/main/Source%20Codes)
+To view the source codes in python, view [Source Codes](https://github.com/gab-v/PANINDA-PRO-inventory-management-system-python/tree/main/Source%20Codes).
