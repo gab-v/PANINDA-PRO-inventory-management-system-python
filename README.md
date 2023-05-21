@@ -20,3 +20,7 @@ Developed using Python, Paninda Pro combines the visual prowess of Qt Designer a
 customization capabilities of Qt Style Sheet (QSS) to deliver a professional and intuitive 
 frontend interface. The backend leverages SQL and Python, ensuring reliable data storage, 
 retrieval, and seamless integration of data management processes.
+
+HOW TO USE: 
+To open the executable file, click the latest folder in [Executable file](https://github.com/gab-v/PANINDA-PRO-inventory-management-system-python/tree/main/Executable%20file). 
+To view the source codes in python, view [Source Codes](https://github.com/gab-v/PANINDA-PRO-inventory-management-system-python/tree/main/Source%20Codes)
