@@ -9,7 +9,8 @@ Bachelor of Science in Computer Engineering
 School of Electrical, Electronics, and Computer Engineering
 Mapua University
 
-DATE: May 5, 2023 [Version 1.0.3]
+DATE: 
+May 5, 2023 [Executable file/Paninda Pro 1.0.3](https://github.com/gab-v/PANINDA-PRO-inventory-management-system-python/tree/main/Executable%20file/Paninda%20Pro%201.0.3)
 
 PROJECT DESCRIPTION:
 Paninda Pro is a streamlined Inventory Management System (IMS) designed to assist small 
